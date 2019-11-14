@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>University of Engineering and Management</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo-crp.jpg">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">Download</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="register.html">Register</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/uem.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/2.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/3.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">ICP </a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by Siddharth Singh</p>
+			</footer>
+			<content>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Pathway Programme</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by Siddharth Singh</p>
+			</footer>
+			<content>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with Informatics</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with Informatics</p>
+	</article>
+</aside>
+
+<footer class="mainFooter">
+	<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="./images/student5.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Ajay Chakrobarty</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./images/student7.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Praksha Jain</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./images/student6.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Ritika</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+</div>
+	<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="./images/student3.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Akash Kumar Jai</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./images/student2.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Rajneek Singh</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./images/student4.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Siddharth Singh</h5>
+      <p class="card-text">Team Member</p>
+    </div>
+  </div>
+</div>
+	<p>Copyright &copy <a href="https://www.facebook.com/">Siddharth Singh</a> </p>
+	<center>
+	<a href="https://www.facebook.com/">Facebook</a>
+	<a href="https://www.twitter.com/">Twitter</a>
+	<a href="https://www.youtube.com/">Youtube</a>
+	</center>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
